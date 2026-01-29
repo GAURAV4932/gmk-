@@ -10,7 +10,7 @@
 // slice()
 // substring()
 // replace()
-// contact ()
+// concat
 // split()
 
 let str = "Hello javascript word";
@@ -29,4 +29,15 @@ console.log("includes():", str.includes("javascript"));
 
 console.log("indexOf():", str.indexOf("javascript"));
 
-console.log("slice():", str.slice(6, 16));
+console.log("slice():", str.slice(1, 32));
+
+console.log("substring():", str.substring(0, 12));
+
+let rep= str.replace("Hello","hyyy");
+console.log("replace():",rep);
+
+let rep1= str.concat ("ok","done");
+console.log("concat():",rep1);
+
+let splitText= str.split(" ");
+console.log("split():",splitText);
