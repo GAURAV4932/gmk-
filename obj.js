@@ -37,4 +37,3 @@ const person1={
  console.log(Object.entries(person1));       
 
 
- 
