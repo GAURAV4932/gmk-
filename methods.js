@@ -59,7 +59,7 @@ let str = "Hello javascript word";
 // reverse() 
 // flat ()
 
-// let arr = ['one','two','three',1,{name:'name'}]
+let arr = ['one','two','three',1,{name:'name'}]
 // console.log("default array:",arr);
 
 // console.log("length():",arr.length);
@@ -87,7 +87,7 @@ let str = "Hello javascript word";
 // console.log("indexOf():",arr.indexOf("two"));
 
 // console.log("slice():",arr.slice(1,3));
-// console.log("splice():",arr.splice(1,2));
+   console.log("splice():",arr.splice(1,2));
 // console.log ("old arr",arr);
 // console.log("join():",arr.join(", "));
 // delete arr[1];
@@ -98,6 +98,7 @@ let numbers = [1,2,3,4,5,];
 
 console.log("map:",numbers.map(num => num * 2));
 console.log("after map old array:",numbers);
+
 
 console.log("filter:",numbers.filter(num =>num >  2));
 console.log("after filters old array:",numbers);
