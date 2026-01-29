@@ -36,8 +36,7 @@ console.log("substring():", str.substring(0, 12));
 let rep= str.replace("Hello","hyyy");
 console.log("replace():",rep);
 
-let rep1= str.concat ("ok","done");
-console.log("concat():",rep1);
+let rep1= "hello react";
+console.log("concat():", str.concat(rep1));
 
-let splitText= str.split(" ");
-console.log("split():",splitText);
+console.log("split():", str.split(" "));
