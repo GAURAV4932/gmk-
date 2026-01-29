@@ -80,4 +80,16 @@ const newObj={
     ...user1,
     role:"react devloper",
 }
-console.log(newObj) 
+console.log(newObj)
+
+const user2={
+    age:25,
+    salary:"50000",
+}
+console.log(user2)
+
+const user3={
+    ...user1,
+    ...user2
+}
+console.log(user3);
